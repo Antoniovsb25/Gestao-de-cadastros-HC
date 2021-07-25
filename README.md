@@ -8,7 +8,7 @@
 
 ## Página inicial para escolher se deseja cadastrar clientes ou produtos
 
-<img src="./img/index.png" alt="pagina inicial" width="500" height="600">
+<img src="./img/index.png" alt="pagina inicial" width="600" height="500">
 
 ## Futuramente, este projeto migrará para utilizar as tecnologias React e NodeJS.
 
@@ -23,7 +23,7 @@
   <li>Endereço</li>
 </ul>
 
-<img src="./img/cliente.png" alt="cliente" width="500" height="600">
+<img src="./img/cliente.png" alt="cliente" width="840" height="500">
 
 ## O form de produtos cadastra:
 <ul>
@@ -33,4 +33,4 @@
   <li>Quantidade</li>
 </ul>
 
-<img src="./img/produto.png" alt="produto" width="500" height="600">
+<img src="./img/produto.png" alt="produto" width="840" height="600">
