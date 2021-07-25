@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de produtos</title>
+</head>
+<body>
+    <div class="box">
+        <form action="" id="form1">
+            <fieldset>
+                <legend><strong>Registro de produtos</strong></legend>
+                <br>
+                <div class="input-box">
+                    <input type="text" name="codigo" id="codigo" class="input-user" required>
+                    <label for="codigo" class="label-input">Código*</label>
+                </div>
+                <br>
+                <div class="input-box">
+                    <input type="text" name="nome" id="nome" class="input-user" required>
+                    <label for="nome" class="label-input">Nome do Produto*</label>
+                </div>
+                <br>
+                <div class="input-box">
+                    <input type="text" name="preco" id="preco" class="input-user" required>
+                    <label for="preco" class="label-input">Preço unitário* R$</label>
+                </div>
+                <br>
+                <div class="input-box">
+                    <input type="number" name="quantidade" id="quantidade" class="input-user" required>
+                    <label for="quantidade" class="label-input">Quantidade*</label>
+                </div>
+                <br>
+                <input type="submit" value="enviar" name="submit" id="submit">
+            </fieldset>  
+        </form>
+        <br>
+        <a href="index.html" id="submit2">Voltar</a>
+    </div>
+</body>
+<script src="script1.js"></script>
+</html>
